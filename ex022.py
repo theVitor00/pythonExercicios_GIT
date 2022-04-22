@@ -6,6 +6,7 @@
 nome = str(input('Qual é o seu nome completo: '))
 print('\nAnalisando seu nome...')
 print('{}'.format(nome.upper()))
+print('{}'.format(nome.lower()))
 #espaco = nome.count(' ')
 print('Seu nome tem {} letras.'.format(len(nome) - nome.count(' ')))
 nome = nome.split()
